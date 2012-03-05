@@ -35,4 +35,3 @@ opz() {
 }
 
 alias opz='scp -F ~/dotfiles/misc/foo_conf'
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
