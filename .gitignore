@@ -6,3 +6,5 @@ custom/*
 !custom/example.zsh
 !custom/example.zshcache
 *.swp
+!custom/example.zshcache
+cache/
