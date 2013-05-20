@@ -3,6 +3,7 @@ alias rake="noglob rake"
 alias ant="noglob ant"
 alias emacs="emacsclient -a '' -ct"
 alias ghb='nice -20 /opt/handbrake/bin/ghb'
+alias git lg='nocorrect git lg'
 
 setopt histignoredups
 setopt histignorespace
