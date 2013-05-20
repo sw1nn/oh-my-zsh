@@ -26,13 +26,3 @@ ssh-reagent () {
 
     echo Cannot find ssh agent - maybe you should reconnect and forward it?
 }
-
-zpo() {
-    ssh -F ~/dotfiles/misc/foo_conf $@
-}
-
-opz() {
-    scp -F ~/dotfiles/misc/foo_conf $@
-}
-
-alias opz='scp -F ~/dotfiles/misc/foo_conf'
