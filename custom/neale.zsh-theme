@@ -16,7 +16,7 @@ ZSH_THEME_GIT_PROMPT_DIRTY=" %{%F{red}%}●%{%f%k%b%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=" %{%F{green}●%{%f%k%b%}%}"
 
 PROMPT='%{%f%k%b%}
-%{$fg[green]%}%n%{$fg[blue]%}@%{$fg[cyan]%}%m%{%B%F{green}%} %{$fg[yellow]%}~%{$fg[green]%}$(git_prompt_info)%E%{%f%k%b%}
+%{$fg[green]%}%n%{$fg[blue]%}@%{$fg[cyan]%}%m%{%B%F{green}%} %{$fg[yellow]%}%~%{$fg[green]%}$(git_prompt_info)%E%{%f%k%b%}
 $(_prompt_char)%#%{%f%k%b%} '
 
 RPROMPT='!%{%B%F{cyan}%}%!%{%f%k%b%}'
