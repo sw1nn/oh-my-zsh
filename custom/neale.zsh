@@ -4,6 +4,8 @@ alias ant="noglob ant"
 alias emacs="emacsclient -a '' -ct"
 alias ghb='nice -20 /opt/handbrake/bin/ghb'
 alias git lg='nocorrect git lg'
+alias httpserver='python3 -m http.server'
+alias elastic-mapreduce='elastic-mapreduce -c ${HOME}/.config/elastic-mapreduce/credentials.json'
 
 setopt histignoredups
 setopt histignorespace
@@ -16,12 +18,12 @@ ssh-reagent () {
             echo Found working SSH Agent:
             ssh-add -l
             return
-        else 
+        else
             echo Found Old SSH Agent socket:
             rm -i $agent
         fi
     done
-    
+
     unset SSH_AUTH_SOCK
 
     echo Cannot find ssh agent - maybe you should reconnect and forward it?
